@@ -65,6 +65,7 @@ nav {
     padding: 6rem 35rem;
 
     display: flex;
+    flex-direction: column;
 }
 
 .about-page div:first-child {
@@ -72,11 +73,12 @@ nav {
 }
 
 .about-page div:last-child {
-    flex: 2.5;
+    flex: 6;
 }
 
 .about-page h1 {
     font-size: 4.5rem;
+    text-align: center;
     color: orange;
 }
 
@@ -91,10 +93,11 @@ span {
 
 .team-image {
     position: absolute;
-    width: 50%;
+    width: 40%;
     bottom: 6rem;
-    left: 38rem;
+    left: 48rem;
     border-radius: 2rem;
+    opacity: 0.95;
 }
 
 /* MENUPAGE */
